@@ -19,7 +19,7 @@ Use Docker and Splash to set up the crawler environment.
 * Splash: Most web pages are dynamic and are rendered by Javascript. Therefore, it is not possible to directly use a Python package for network crawling. We need Splash to help us obtain the generated dynamic pages.
 * Docker: Helps us build and run Splash.
 
-2. 資料蒐集
+2. Data Collection
 * Target: Product reviews of a Basketball Shoes
 * Steps:
     1. Load the specified website html structure with Requests
