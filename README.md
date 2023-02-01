@@ -1,4 +1,4 @@
-# A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews
+# A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews 
 For more detailed information and code, refer to the PDF file included in this repository.
 ## Problem Statement
 This project focuses on evaluating marketing strategies by leveraging the power of data scraping and analysis.   
@@ -12,6 +12,48 @@ This project utilizes customer reviews of a basketball shoes from Amazon as its 
 
 ## Methodology 
 This project uses the R & Python languages for text mining, collecting and processing the purchase comments of basketball shoes. The sentiment analysis is conducted by applying LDA topic analysis in R and TextBlob package in Python. The analysis results are used to analyze the emotions of consumers who purchase the product, identify the corresponding topics of positive and negative comments, and provide feasible recommendations.
+
+## Steps
+1. Web Crawler environment setup
+Use Docker and Splash to set up the crawler environment.
+* Splash: Most web pages are dynamic and are rendered by Javascript. Therefore, it is not possible to directly use a Python package for network crawling. We need Splash to help us obtain the generated dynamic pages.
+* Docker: Helps us build and run Splash.
+
+2. 資料蒐集
+* Target: Product reviews of a Basketball Shoes
+* Steps:
+    1. Load the specified website html structure with Requests
+    2. Use BeautifulSoup for crawling (observe the changes of the website before starting to crawl)
+    3. Save the crawling result as xlsx format
+
+3. Exploratory Data Analysis (EDA)
+
+4. Text Cleansing
+* Python part
+    This part mainly uses the string and nltk packages to process text, in preparation for using the TextBlob package for sentiment analysis.
+    * Text data cleaning steps:
+        1. Tokenize the sentences
+        2. Delete repetitive and unimportant words
+        3. Remove punctuation
+        4. Remove some words that are not numbers or English
+        5. Convert all words to lowercase
+        6. Group words with similar meanings as the same word 
+        7. Return the result
+* R part
+    The text processing concepts here are roughly the same as in Python. This step is to clean up the text data required for the LDA algorithm in the following steps.
+
+5. Topic Analysis
+* Method: Perform topic analysis using LDA (Latent Dirichlet Allocation) model.
+LDA (Latent Dirichlet Allocation) is a document topic generation model. The term "generation model" means that we believe:
+    * A document selects a certain topic with a certain probability.
+    * The topic chooses a certain word with a certain probability.
+    * Each document represents a probability distribution of some topics and each topic represents a probability distribution of many words.
+    * Note: LDA does not assign any labels to each topic. They are just topics 1, 2, 3 and 4, etc.
+    
+6. Sentiment Analysis
+* The result of sentiment analysis using the TextBlob package will be returned in the form of tuple (polarity, subjectivity).
+* Sentiment categories: Positive, Negative, Neutral
+
 
 ## Conclusion
 ### Outcome
