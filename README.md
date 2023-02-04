@@ -11,7 +11,7 @@ This project expertly blends data analysis with real-world business applications
 This project utilizes customer reviews of a basketball shoes from Amazon as its dataset.
 
 ## Methodology 
-This project uses the R & Python languages for text mining, collecting and processing the purchase comments of basketball shoes. The sentiment analysis is conducted by applying LDA topic analysis in R and TextBlob package in Python. The analysis results are used to analyze the emotions of consumers who purchase the product, identify the corresponding topics of positive and negative comments, and provide feasible recommendations.
+This project uses the R & Python languages for text mining, collecting and processing the purchase comments of basketball shoes. The topic and sentiment analysis are conducted by applying LDA topic analysis in R and TextBlob package in Python. The analysis results are used to analyze the emotions of consumers who purchase the product, identify the corresponding topics of positive and negative comments, and provide feasible recommendations.
 
 ## Steps
 1. Web Crawler environment setup
