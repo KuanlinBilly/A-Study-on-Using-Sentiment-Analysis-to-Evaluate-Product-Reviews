@@ -1,4 +1,4 @@
-# A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews 
+# A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews   
 For more detailed information and code, refer to the PDF file included in this repository.
 ## Problem Statement
 This project focuses on evaluating marketing strategies by leveraging the power of data scraping and analysis.   
