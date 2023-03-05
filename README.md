@@ -1,5 +1,5 @@
 # A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews   
-For more detailed information and code, refer to the PDF file included in this repository.
+For more detailed information and code, refer to the [PDF file](https://github.com/KuanlinBilly/A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews/blob/main/A%20Study%20on%20Using%20Sentiment%20Analysis%20to%20Evaluate%20Product%20Reviews%20%E2%80%94Take%20Amazon%20E-commerce%20as%20an%20example.pdf) included in this repository.
 ## Problem Statement
 This project focuses on evaluating marketing strategies by leveraging the power of data scraping and analysis.   
 
