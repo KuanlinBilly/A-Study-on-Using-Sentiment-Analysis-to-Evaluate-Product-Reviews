@@ -14,7 +14,7 @@ This project utilizes customer reviews of a basketball shoes from Amazon as its 
 This project uses the R & Python languages for text mining, collecting and processing the purchase comments of basketball shoes. The topic and sentiment analysis are conducted by applying LDA topic analysis in R and TextBlob package in Python. The analysis results are used to analyze the emotions of consumers who purchase the product, identify the corresponding topics of positive and negative comments, and provide feasible recommendations.
 
 ## Steps
-![Image text] (https://github.com/KuanlinBilly/A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews/blob/main/img-folder/Process.jpg)
+![Image text](https://github.com/KuanlinBilly/A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews/blob/main/img-folder/Process.jpg)
 
 1. Web Crawler environment setup
 Use Docker and Splash to set up the crawler environment.
