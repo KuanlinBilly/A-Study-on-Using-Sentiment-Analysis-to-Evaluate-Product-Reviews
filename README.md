@@ -16,7 +16,7 @@ This project uses the R & Python languages for text mining, collecting and proce
 ## Steps
 
 <div align=center>
-<img src="https://github.com/KuanlinBilly/A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews/blob/main/img-folder/Process.jpg" width="180" height="105"> width="180" height="105"/>
+<img src="https://github.com/KuanlinBilly/A-Study-on-Using-Sentiment-Analysis-to-Evaluate-Product-Reviews/blob/main/img-folder/Process.jpg">
 </div>
 
 1. Web Crawler environment setup
