@@ -48,11 +48,11 @@ The R & Python languages are used for text mining, collecting, and processing ba
         6. Group words with similar meanings as the same word 
         7. Return the result
 * R part
-    The text processing concepts here are roughly the same as in Python. This step is to clean up the text data required for the LDA algorithm in the following steps.
+    Clean text data for the LDA algorithm, similar to the process in the Python part.
 
 5. Topic Analysis
-* Method: Perform topic analysis using LDA (Latent Dirichlet Allocation) model.
-LDA (Latent Dirichlet Allocation) is a document topic generation model. The term "generation model" means that we believe:
+* Perform topic analysis using LDA (Latent Dirichlet Allocation) model.
+* LDA (Latent Dirichlet Allocation) is a document topic generation model. The term "generation model" means that we believe:
     * A document selects a certain topic with a certain probability.
     * The topic chooses a certain word with a certain probability.
     * Each document represents a probability distribution of some topics and each topic represents a probability distribution of many words.
